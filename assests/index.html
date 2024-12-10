@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Fintech</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="text-center p-3">
+        <h1 class="text-dark logo">O.K</h1>
+    </header>
+    
+    <!-- Menu de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Página Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Atividades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Educação Financeira</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Área Pix</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Dashboard -->
+    <main class="container mt-4">
+        <div class="row">
+            <!-- Resumo do Saldo Atual -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Saldo Atual</h5>
+                        <p class="card-text fs-4"><strong>R$ 3.578,00</strong></p>
+                        <button class="btn btn-primary">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Resumo de Transações -->
+            <div class="col-md-6 mb-4">
+                <div class="card bg-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Resumo de Transações</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Entrada</span><span class="text-success">+ R$ 1.800,00</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Saída</span><span class="text-danger">- R$ 1.346,00</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Links para Serviços -->
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <a href="#" class="btn btn-warning w-100 hover-effect">Cartões Virtuais</a>
+            </div>
+            <div class="col-md-3 mb-4">
+                <a href="#" class="btn btn-warning w-100 hover-effect">Educação Financeira</a>
+            </div>
+            <div class="col-md-3 mb-4">
+                <a href="#" class="btn btn-warning w-100 hover-effect">Atividades</a>
+            </div>
+            <div class="col-md-3 mb-4">
+                <a href="#" class="btn btn-warning w-100 hover-effect">Área Pix</a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>© 2024 Fintech</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
