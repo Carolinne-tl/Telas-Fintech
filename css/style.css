@@ -1,6 +1,19 @@
-/* Alterar cor de fundo do cabeçalho */
+/* Para o layout ocupar toda a altura da tela */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Area principal deve ocupar o espaço restante */
+main {
+    flex: 1;
+}
+
+/* Estilo do cabeçalho */
 header {
-    background-color: #F2D708; /* Tom de amarelo*/
+    background-color: #F2D708; /* Tom de amarelo */
 }
 
 /* Estilo da logo O.K com fonte arredondada */
@@ -10,7 +23,6 @@ header {
     font-weight: bold; /* Negrito */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
-
 
 /* Centralizar o texto do saldo */
 .card-title {
@@ -34,23 +46,10 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-/* Rodapé */
+/* Rodape fixado na parte inferior */
 footer {
-    background-color: #343a40; /* Cor padrão do Bootstrap para o rodapé */
+    background-color: #343a40; /* Cor padrão do Bootstrap para o rodape */
     color: white;
     font-size: 0.9rem;
+    text-align: center;
 }
-
-/* Links no menu de navegação */
-.nav-link:hover {
-    color: #F1E756 !important; /* Muda para um tom de amarelo ao passar o mouse */
-    transition: color 0.3s ease-in-out;
-}
-
-
-
-
-
-
-
-
